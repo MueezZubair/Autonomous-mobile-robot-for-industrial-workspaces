@@ -1,9 +1,4 @@
-/*
- * Author: Automatic Addison
- * Website: https://automaticaddison.com
- * Description: Calculate the angular velocity in radians/second of a DC motor
- * with a built-in encoder (forward = positive; reverse = negative) 
- */
+
 
 int RPWM_Output = 9; // Arduino PWM output pin 5; connect to IBT-2 pin 1 (RPWM)
 int LPWM_Output = 6; // Arduino PWM output pin 6; connect to IBT-2 pin 2 (LPWM)
