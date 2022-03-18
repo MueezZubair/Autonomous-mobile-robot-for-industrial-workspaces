@@ -2,9 +2,15 @@
 
 To launch using kinect only :
 
-
+```
 roslaunch freenect_launch freenect.launch depth_registration:=true
 
 roslaunch rtabmap_ros rtabmap.launch rtabmap_args:="--delete_db_on_start"
 
 roslaunch rtabmap_ros planner.launch
+```
+
+with wheel encoders launch
+```
+roslaunch localization_data_pub robot_ekf_pose.launch
+```
